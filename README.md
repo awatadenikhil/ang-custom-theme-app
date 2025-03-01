@@ -54,6 +54,13 @@ ng e2e
 
 Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
 
+
+## Change Theme 
+
+1) import @import "assets/arya-orange/theme.scss"; into styles.scss file
+2) and comment @import "assets/arya-green/theme.scss"; in style.scss file
+3) in app.config.ts, add ThemeAryaOrangeConfig as selectedTheme
+
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
